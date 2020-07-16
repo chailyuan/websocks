@@ -8,9 +8,9 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/lzjluzijie/websocks/client"
-	"github.com/lzjluzijie/websocks/core"
-	"github.com/lzjluzijie/websocks/server"
+	"github.com/chailyuan/websocks/client"
+	"github.com/chailyuan/websocks/core"
+	"github.com/chailyuan/websocks/server"
 	"github.com/urfave/cli"
 )
 
@@ -26,7 +26,7 @@ func main() {
 		Usage:       "A secure proxy based on WebSocket.",
 		Description: "websocks.org",
 		Author:      "Halulu",
-		Email:       "lzjluzijie@gmail.com",
+		Email:       "chailyuan@gmail.com",
 		Commands: []cli.Command{
 			{
 				Name:    "client",

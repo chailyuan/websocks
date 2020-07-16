@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/lzjluzijie/websocks/core"
-	"github.com/lzjluzijie/websocks/core/mux"
+	"github.com/chailyuan/websocks/core"
+	"github.com/chailyuan/websocks/core/mux"
 )
 
 func (client *WebSocksClient) OpenMux() (err error) {

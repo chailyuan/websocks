@@ -7,17 +7,17 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/lzjluzijie/websocks/core/mux"
+	"github.com/chailyuan/websocks/core/mux"
 
 	"net/http/httputil"
 	"net/url"
 
 	"crypto/tls"
 
+	"github.com/chailyuan/websocks/core"
 	"github.com/gorilla/websocket"
 	"github.com/juju/loggo"
 	"github.com/julienschmidt/httprouter"
-	"github.com/lzjluzijie/websocks/core"
 )
 
 type WebSocksServer struct {

@@ -1,6 +1,6 @@
 # WebSocks
 
-[English](https://github.com/lzjluzijie/websocks/blob/master/README-en.md)
+[English](https://github.com/chailyuan/websocks/blob/master/README-en.md)
 
 一个基于 WebSocket 的代理工具
 

@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/lzjluzijie/websocks/core"
+	"github.com/chailyuan/websocks/core"
 )
 
 type LocalConn struct {

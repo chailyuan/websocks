@@ -6,7 +6,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/lzjluzijie/websocks/core"
+	"github.com/chailyuan/websocks/core"
 )
 
 type MuxWebSocket struct {

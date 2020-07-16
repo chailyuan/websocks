@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/chailyuan/websocks/core"
 	"github.com/gorilla/websocket"
-	"github.com/lzjluzijie/websocks/core"
 )
 
 type Config struct {

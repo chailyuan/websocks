@@ -5,12 +5,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/lzjluzijie/websocks/core/mux"
+	"github.com/chailyuan/websocks/core/mux"
 
 	"net/url"
 
+	"github.com/chailyuan/websocks/core"
 	"github.com/gorilla/websocket"
-	"github.com/lzjluzijie/websocks/core"
 )
 
 type WebSocksClient struct {
